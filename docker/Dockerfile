@@ -10,7 +10,7 @@ RUN pip install ipython
 
 WORKDIR /app
 
-RUN git clone --branch desarrollo https://github.com/gonguelun/EGC-1230-gonguelun .
+RUN git clone https://github.com/gonguelun/EGC-1230-gonguelun .
 RUN pip install -r requirements.txt
 
 WORKDIR /app/decide
